@@ -1,0 +1,30 @@
+name: Thermic
+version: 0.1.0-alpha
+description: Thermic is a simple team for a simple site, written thanks to Spectre.css
+icon: rebel
+author:
+  name: FraV1982
+  email: consulenza.vangi@outlook.com
+homepage: https://github.com/FrankVan1982/grav-theme-thermic
+demo: https://frankvan1982.github.io/thermic-grav-demo
+keywords: grav, theme, spectre, thermic, serif, sans-serif, etc
+bugs: https://github.com/FrankVan1982/grav-theme-thermic/issues
+readme: https://github.com/FrankVan1982/grav-theme-thermic/README.md
+license: GPL3
+
+dependencies:
+  - { name: grav, version: '>=1.6.4' }
+  
+form:
+  validation: loose
+  fields:
+    dropdown.enabled:
+        type: toggle
+        label: Dropdown in Menu
+        highlight: 1
+        default: 1
+        options:
+          1: PLUGIN_ADMIN.ENABLED
+          0: PLUGIN_ADMIN.DISABLED
+        validate:
+          type: bool

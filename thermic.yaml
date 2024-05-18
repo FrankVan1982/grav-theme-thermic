@@ -1,0 +1,10 @@
+enabled: true
+production-mode: false
+github:
+  note: true
+  link: true
+  tree: https://github.com/FrankVan1982/grav-theme-thermic/
+  commits: https://github.com/FrankVan1982/grav-theme-thermic/commits/
+spectre:
+  exp: false
+  icons: icons
